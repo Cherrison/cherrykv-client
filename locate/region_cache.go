@@ -26,10 +26,10 @@ import (
 	"github.com/pingcap/pd/client"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"github.com/tikv/client-go/codec"
-	"github.com/tikv/client-go/config"
-	"github.com/tikv/client-go/metrics"
-	"github.com/tikv/client-go/retry"
+	"github.com/cherrison/cherrykv-client/codec"
+	"github.com/cherrison/cherrykv-client/config"
+	"github.com/cherrison/cherrykv-client/metrics"
+	"github.com/cherrison/cherrykv-client/retry"
 )
 
 // CachedRegion encapsulates {Region, TTL}

@@ -21,10 +21,10 @@ import (
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pkg/errors"
 	"github.com/prometheus/common/log"
-	"github.com/tikv/client-go/key"
-	"github.com/tikv/client-go/metrics"
-	"github.com/tikv/client-go/txnkv/kv"
-	"github.com/tikv/client-go/txnkv/store"
+	"github.com/cherrison/cherrykv-client/key"
+	"github.com/cherrison/cherrykv-client/metrics"
+	"github.com/cherrison/cherrykv-client/txnkv/kv"
+	"github.com/cherrison/cherrykv-client/txnkv/store"
 )
 
 // Transaction is a key-value transaction.

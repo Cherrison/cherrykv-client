@@ -19,8 +19,8 @@ import (
 	"time"
 
 	. "github.com/pingcap/check"
-	"github.com/tikv/client-go/config"
-	"github.com/tikv/client-go/txnkv/oracle"
+	"github.com/cherrison/cherrykv-client/config"
+	"github.com/cherrison/cherrykv-client/txnkv/oracle"
 )
 
 func TestT(t *testing.T) {

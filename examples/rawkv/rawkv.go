@@ -16,8 +16,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/tikv/client-go/config"
-	"github.com/tikv/client-go/rawkv"
+	"github.com/cherrison/cherrykv-client/config"
+	"github.com/cherrison/cherrykv-client/rawkv"
 )
 
 func main() {

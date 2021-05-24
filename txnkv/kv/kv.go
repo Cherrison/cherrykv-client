@@ -13,7 +13,7 @@
 
 package kv
 
-import "github.com/tikv/client-go/key"
+import "github.com/cherrison/cherrykv-client/key"
 
 // Priority value for transaction priority.
 const (

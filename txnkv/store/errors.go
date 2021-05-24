@@ -17,7 +17,7 @@ import (
 	"fmt"
 
 	"github.com/pkg/errors"
-	"github.com/tikv/client-go/key"
+	"github.com/cherrison/cherrykv-client/key"
 )
 
 // TxnRetryableMark is used to direct user to restart a transaction.

@@ -17,7 +17,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/tikv/client-go/proxy"
+	"github.com/cherrison/cherrykv-client/proxy"
 )
 
 // NewHTTPProxyHandler creates an http.Handler that serves as a TiKV client proxy.

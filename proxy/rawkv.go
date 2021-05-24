@@ -17,8 +17,8 @@ import (
 	"sync"
 
 	"github.com/pkg/errors"
-	"github.com/tikv/client-go/config"
-	"github.com/tikv/client-go/rawkv"
+	"github.com/cherrison/cherrykv-client/config"
+	"github.com/cherrison/cherrykv-client/rawkv"
 )
 
 // RawKVProxy implements proxy to use rawkv API.

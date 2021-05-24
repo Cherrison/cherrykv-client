@@ -20,10 +20,10 @@ import (
 	"testing"
 
 	. "github.com/pingcap/check"
-	"github.com/tikv/client-go/config"
-	"github.com/tikv/client-go/locate"
-	"github.com/tikv/client-go/mockstore/mocktikv"
-	"github.com/tikv/client-go/retry"
+	"github.com/cherrison/cherrykv-client/config"
+	"github.com/cherrison/cherrykv-client/locate"
+	"github.com/cherrison/cherrykv-client/mockstore/mocktikv"
+	"github.com/cherrison/cherrykv-client/retry"
 )
 
 func TestT(t *testing.T) {

@@ -23,7 +23,7 @@ import (
 	"github.com/google/btree"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pkg/errors"
-	"github.com/tikv/client-go/codec"
+	"github.com/cherrison/cherrykv-client/codec"
 )
 
 type mvccValueType int

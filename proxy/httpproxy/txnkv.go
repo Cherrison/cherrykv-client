@@ -19,8 +19,8 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/tikv/client-go/config"
-	"github.com/tikv/client-go/proxy"
+	"github.com/cherrison/cherrykv-client/config"
+	"github.com/cherrison/cherrykv-client/proxy"
 )
 
 type txnkvHandler struct {

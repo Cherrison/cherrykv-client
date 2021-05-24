@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tikv/client-go/config"
-	"github.com/tikv/client-go/key"
-	"github.com/tikv/client-go/txnkv"
+	"github.com/cherrison/cherrykv-client/config"
+	"github.com/cherrison/cherrykv-client/key"
+	"github.com/cherrison/cherrykv-client/txnkv"
 )
 
 // KV represents a Key-Value pair.

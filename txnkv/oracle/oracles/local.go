@@ -18,7 +18,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tikv/client-go/txnkv/oracle"
+	"github.com/cherrison/cherrykv-client/txnkv/oracle"
 )
 
 var _ oracle.Oracle = &localOracle{}

@@ -14,8 +14,8 @@
 package kv
 
 import (
-	"github.com/tikv/client-go/config"
-	"github.com/tikv/client-go/key"
+	"github.com/cherrison/cherrykv-client/config"
+	"github.com/cherrison/cherrykv-client/key"
 )
 
 // BufferStore wraps a Retriever for read and a MemBuffer for buffered write.

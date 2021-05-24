@@ -19,10 +19,10 @@ import (
 	"unsafe"
 
 	"github.com/pkg/errors"
-	"github.com/tikv/client-go/config"
-	"github.com/tikv/client-go/key"
-	"github.com/tikv/client-go/txnkv"
-	"github.com/tikv/client-go/txnkv/kv"
+	"github.com/cherrison/cherrykv-client/config"
+	"github.com/cherrison/cherrykv-client/key"
+	"github.com/cherrison/cherrykv-client/txnkv"
+	"github.com/cherrison/cherrykv-client/txnkv/kv"
 )
 
 // TxnKVProxy implements proxy to use txnkv API.

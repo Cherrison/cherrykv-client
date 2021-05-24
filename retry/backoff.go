@@ -22,7 +22,7 @@ import (
 
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"github.com/tikv/client-go/metrics"
+	"github.com/cherrison/cherrykv-client/metrics"
 )
 
 const (

@@ -22,11 +22,11 @@ import (
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"github.com/tikv/client-go/config"
-	"github.com/tikv/client-go/locate"
-	"github.com/tikv/client-go/metrics"
-	"github.com/tikv/client-go/retry"
-	"github.com/tikv/client-go/rpc"
+	"github.com/cherrison/cherrykv-client/config"
+	"github.com/cherrison/cherrykv-client/locate"
+	"github.com/cherrison/cherrykv-client/metrics"
+	"github.com/cherrison/cherrykv-client/retry"
+	"github.com/cherrison/cherrykv-client/rpc"
 )
 
 // LockResolver resolves locks and also caches resolved txn status.

@@ -16,9 +16,9 @@ package txnkv
 import (
 	"context"
 
-	"github.com/tikv/client-go/config"
-	"github.com/tikv/client-go/retry"
-	"github.com/tikv/client-go/txnkv/store"
+	"github.com/cherrison/cherrykv-client/config"
+	"github.com/cherrison/cherrykv-client/retry"
+	"github.com/cherrison/cherrykv-client/txnkv/store"
 )
 
 // Client is a transactional client of TiKV server.

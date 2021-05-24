@@ -18,7 +18,7 @@ import (
 
 	"github.com/pingcap/kvproto/pkg/metapb"
 	pd "github.com/pingcap/pd/client"
-	"github.com/tikv/client-go/codec"
+	"github.com/cherrison/cherrykv-client/codec"
 )
 
 // CodecPDClient wraps a PD Client to decode the encoded keys in region meta.

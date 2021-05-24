@@ -23,7 +23,7 @@ import (
 	"github.com/cznic/mathutil"
 	log "github.com/sirupsen/logrus"
 	"github.com/spaolacci/murmur3"
-	"github.com/tikv/client-go/config"
+	"github.com/cherrison/cherrykv-client/config"
 )
 
 type node struct {

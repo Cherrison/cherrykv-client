@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	. "github.com/pingcap/check"
-	"github.com/tikv/client-go/config"
+	"github.com/cherrison/cherrykv-client/config"
 )
 
 const (

@@ -16,7 +16,7 @@ package kv
 import (
 	. "github.com/pingcap/check"
 	"github.com/pkg/errors"
-	"github.com/tikv/client-go/config"
+	"github.com/cherrison/cherrykv-client/config"
 )
 
 var _ = Suite(&testUnionStoreSuite{})

@@ -26,7 +26,7 @@ import (
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
-	"github.com/tikv/client-go/codec"
+	"github.com/cherrison/cherrykv-client/codec"
 )
 
 // MVCCLevelDB implements the MVCCStore interface.

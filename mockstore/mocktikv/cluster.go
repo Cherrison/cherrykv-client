@@ -22,7 +22,7 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/pingcap/kvproto/pkg/kvrpcpb"
 	"github.com/pingcap/kvproto/pkg/metapb"
-	"github.com/tikv/client-go/codec"
+	"github.com/cherrison/cherrykv-client/codec"
 )
 
 // Cluster simulates a TiKV cluster. It focuses on management and the change of

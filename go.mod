@@ -1,4 +1,4 @@
-module github.com/tikv/client-go
+module github.com/cherrison/cherrykv-client
 
 go 1.15
 
